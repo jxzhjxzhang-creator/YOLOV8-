@@ -3,8 +3,8 @@ import pyrealsense2 as rs
 from ultralytics import YOLO
 import numpy as np
 # 加载YOLO模型
-model_path = "/home/zjx/Desktop/garbage_yolo/ultralytics/ultralytics/weights/last.pt"
-data_path = "/home/zjx/Desktop/garbage_yolo/ultralytics/ultralytics/cfg/datasets/VOC-trash.yaml"
+model_path = "best.pt"
+data_path = "VOC-trash.yaml"
 model = YOLO(model_path)
 
 # 配置Realsense相机
