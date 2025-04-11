@@ -22,3 +22,10 @@
    ```bash
    git clone [repository_url]
    cd trash-classification-detection
+2、安装依赖
+   ```bash
+pip install -r requirements.txt
+或手动安装:
+   ```bash
+pip install torch torchvision opencv-python pyrealsense2 ultralytics numpy
+下载YOLOv8模型权重文件(best.pt)和数据集配置文件(VOC-trash.yaml)，放置在项目根目录下
